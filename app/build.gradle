@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.blink.browser'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.blink.browser'
+        minSdk 29
+        targetSdk 34
+        versionCode 4
+        versionName '3.0.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
